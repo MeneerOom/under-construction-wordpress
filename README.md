@@ -1,8 +1,8 @@
-== Description ==
+# Description
 
 Creates a 'Coming Soon' page that will show for all users who are not logged in. Useful for developing a site on a live server, without the world being able to see it
 
-== Installation ==
+# Installation
 
 1. Upload the folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
