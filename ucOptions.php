@@ -180,7 +180,7 @@ if (array_key_exists('underconstruction_global_notification', $_GET) && $_GET['u
 		<br />
 	</div>
 	<form method="post"
-		action="<?php echo $GLOBALS['PHP_SELF'] . '?page=' . $this->mainOptionsPage; ?>"
+		action="<?php echo esc_attr($_SERVER['REQUEST_URI']); ?>"
 		id="ucoptions">
 		<h2><?php _e('Under Construction', 'underconstruction');?></h2>
 		<table>
